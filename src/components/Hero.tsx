@@ -18,7 +18,7 @@ const Hero = () => {
     <div className="flex w-full flex-wrap lg:mt-20 lg:justify-center lg:items-center text-neutral-100 px-20 lg:flex-row flex-col relative pb-9 max-sm:pb-2 max-sm:px-5 max-sm:mt-10 max-lg:mt-16">
       <motion.div className="lg:w-1/2 w-full flex flex-col lg:justify-normal lg:items-start">
         <motion.h1
-          className="font-light text-5xl pb-9 max-sm:mt-5 max-sm:pb-2 max-lg:pb-3 max-lg:text-center max-sm:text-start"
+          className="font-light text-5xl pb-9 max-sm:mt-5 max-sm:pb-2 max-lg:pb-3 max-lg:text-center max-sm:text-start max-sm:px-3"
           variants={heroDesc(0)}
           initial="hidden"
           animate="visible"
